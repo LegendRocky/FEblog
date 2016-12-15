@@ -24,4 +24,14 @@
 
 在写一个组件之前，现在当前目录下执行一下npm init 就会创建一个初始化的组件
 
-那我们开始我们的组件之旅吧，今天就先把我之前常用组件封装一下
+在构建一个组件之前，我们先来过过npm需要的基础知识，这一节主要针对新手朋友，如果你使用过npm一段时间，但也还不是很明白npm具体的作用的话，也可以花点时间认真看一看
+
+首先去https://github.com/react-component/pagination下载项目npm install安装依赖包，npm run start,在浏览器端打开localhost:3000,就可以看到我们组件的目录结构以及事例代码，是不是有种惊讶感
+
+那么我们就来先看看这短短的几行代码达到如此的魔法效果
+
+当我们执行npm init后就会得到一个包含package.json的初始项目
+
+那么我们先来看看package.json文件具体有些什么作用
+
+首先让我们来看看 [package.json详解](https://ijser.cn/npm-package-json-document/)
